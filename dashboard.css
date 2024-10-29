@@ -407,3 +407,27 @@ main .recent-orders a{
     margin: 1rem auto;
     color: var(--color-primary);
 }
+
+/* ========== RIGHT =========== */
+
+right{
+    margin-top: 1.4rem;
+}
+
+.right .top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    background: gray;
+}
+
+.right .top button{
+    background: var(--color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
